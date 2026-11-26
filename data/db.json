@@ -1,21 +1,39 @@
 {
   "v": 1,
-  "updatedAt": 1795714454273,
+  "updatedAt": 0,
   "shops": [
     {
-      "cid": "SHOP01",            // Shop ID (matches SHOP_ID env in that shop's build)
-      "status": "active",         // active | revoked
-      "plan": "monthly",          // monthly | quarterly | yearly
-      "expiry": "2026-12-31",     // license expiry
-      "dsHash": "d25de9…",        // sha256 of the device secret — "" until first activation
-      "fp": "abc123",             // browser fingerprint (stored at activation)
-      "features": { "pos": true, "products": true, "customers": true },
-      "branding": { "shopName": "", "shopNameUr": "", "address": "", "phone": "",
-                    "footerEn": "", "footerUr": "", "currency": "Rs",
-                    "taxRate": 0, "taxName": "Tax", "logoUrl": "" },
-      "admin": { "user": "shop01", "salt": "…", "hash": "…" },  // PER-SHOP login (scrypt)
-      "code": "eyJkIjp7…",        // pre-signed activation code (regenerated on every Save)
-      "updatedAt": 1795714454273
+      "cid": "SHOP01",
+      "status": "active",
+      "plan": "monthly",
+      "expiry": "2026-12-31",
+      "dsHash": "",
+      "fp": "",
+      "features": {
+        "dashboard": true,
+        "settings": true,
+        "pos": true,
+        "products": true,
+        "customers": true,
+        "reportsBasic": true,
+        "reportsAdvanced": false,
+        "exports": true,
+        "whatsappReceipt": false
+      },
+      "branding": {
+        "shopName": "",
+        "shopNameUr": "",
+        "address": "",
+        "phone": "",
+        "footerEn": "",
+        "footerUr": "",
+        "currency": "Rs",
+        "taxRate": 0,
+        "taxName": "Tax",
+        "logoUrl": ""
+      },
+      "code": null,
+      "updatedAt": 0
     }
   ]
 }
