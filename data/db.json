@@ -1,5 +1,21 @@
 {
   "v": 1,
-  "updatedAt": 0,
-  "shops": []
+  "updatedAt": 1795714454273,
+  "shops": [
+    {
+      "cid": "SHOP01",            // Shop ID (matches SHOP_ID env in that shop's build)
+      "status": "active",         // active | revoked
+      "plan": "monthly",          // monthly | quarterly | yearly
+      "expiry": "2026-12-31",     // license expiry
+      "dsHash": "d25de9…",        // sha256 of the device secret — "" until first activation
+      "fp": "abc123",             // browser fingerprint (stored at activation)
+      "features": { "pos": true, "products": true, "customers": true },
+      "branding": { "shopName": "", "shopNameUr": "", "address": "", "phone": "",
+                    "footerEn": "", "footerUr": "", "currency": "Rs",
+                    "taxRate": 0, "taxName": "Tax", "logoUrl": "" },
+      "admin": { "user": "shop01", "salt": "…", "hash": "…" },  // PER-SHOP login (scrypt)
+      "code": "eyJkIjp7…",        // pre-signed activation code (regenerated on every Save)
+      "updatedAt": 1795714454273
+    }
+  ]
 }
