@@ -1,6 +1,6 @@
 {
   "v": 1,
-  "updatedAt": 1795731761702,
+  "updatedAt": 1795732015715,
   "shops": [
     {
       "cid": "SHOP01",
@@ -21,8 +21,8 @@
         "whatsappReceipt": true
       },
       "branding": {
-        "shopName": "TestShop",
-        "shopNameUr": "TestShop",
+        "shopName": "testid",
+        "shopNameUr": "testid",
         "address": "",
         "phone": "1321456488",
         "footerEn": "Exchange within 7 days with receipt",
@@ -34,11 +34,11 @@
       },
       "admin": {
         "user": "testid",
-        "salt": "753e6ede812f740419b3bc6eaf76378b",
-        "hash": "5ea26ba67fc43defef09931b84b5ca51aeb55848a70dc2f11c41caa79688e393"
+        "salt": "fe895002b9367713c26c06db6c8cc266",
+        "hash": "f0ad90a1650afdecc39fbd15315651f00542c45f9bf3dfa729bf7abb134ea704"
       },
-      "code": "eyJkIjp7ImNpZCI6IlNIT1AwMSIsImZwIjoiOGVlYjM3YTE4MjZjNjQ2ZjU1Njc4ZDQxNGQ5Y2NmNjIiLCJkc0hhc2giOiJiZjc3NjQxNDMxNjg2ODM5ZWZmZDdiYjg5ZTE2NTI1NTgxMzlkNGNkNjI4MTE2NmZiNjI4ZmM4NTg2NmNlZjY4IiwiaWF0IjoxNzk1NzMxNzYxNjk3LCJwbGFuIjoibW9udGhseSIsInN0YXR1cyI6ImFjdGl2ZSIsImV4cCI6IjIwMjYtMTEtMjgiLCJmZWF0dXJlcyI6eyJkYXNoYm9hcmQiOnRydWUsInNldHRpbmdzIjp0cnVlLCJwb3MiOnRydWUsInByb2R1Y3RzIjp0cnVlLCJjdXN0b21lcnMiOnRydWUsInJlcG9ydHNCYXNpYyI6dHJ1ZSwicmVwb3J0c0FkdmFuY2VkIjp0cnVlLCJleHBvcnRzIjp0cnVlLCJ3aGF0c2FwcFJlY2VpcHQiOnRydWV9LCJicmFuZGluZyI6eyJzaG9wTmFtZSI6IlRlc3RTaG9wIiwic2hvcE5hbWVVciI6IlRlc3RTaG9wIiwiYWRkcmVzcyI6IiIsInBob25lIjoiMTMyMTQ1NjQ4OCIsImZvb3RlckVuIjoiRXhjaGFuZ2Ugd2l0aGluIDcgZGF5cyB3aXRoIHJlY2VpcHQiLCJmb290ZXJVciI6Ijcg2K/ZhiDaqduSINin2YbYr9ixINix2LPbjNivINqp25Ig2LPYp9iq2r4g2KrYqNiv24zZhNuMINmF2YXaqdmGINuB25IiLCJjdXJyZW5jeSI6IlJzIiwidGF4UmF0ZSI6MCwidGF4TmFtZSI6IlRheCIsImxvZ29VcmwiOiIifX0sInMiOiJjN2QyOTVmM2M2MThmOGM2NDNkODdiMTdjMWE4ODg0OWFjZTUyY2RmZWZkOWE5Y2JjZmNjYzZkYmQ0MzgxZWNjN2Y3MTY4ZGU4M2RhZTk4NjViZjU0ZDhlYTkwMjViMzJjNWUyNGZhMTFiYzg5ZGQ4MTYzZmI0ZWFiMGU2Y2QwOCJ9",
-      "updatedAt": 1795731761665
+      "code": "eyJkIjp7ImNpZCI6IlNIT1AwMSIsImZwIjoiOGVlYjM3YTE4MjZjNjQ2ZjU1Njc4ZDQxNGQ5Y2NmNjIiLCJkc0hhc2giOiJiZjc3NjQxNDMxNjg2ODM5ZWZmZDdiYjg5ZTE2NTI1NTgxMzlkNGNkNjI4MTE2NmZiNjI4ZmM4NTg2NmNlZjY4IiwiaWF0IjoxNzk1NzMyMDE1NzEwLCJwbGFuIjoibW9udGhseSIsInN0YXR1cyI6ImFjdGl2ZSIsImV4cCI6IjIwMjYtMTEtMjgiLCJmZWF0dXJlcyI6eyJkYXNoYm9hcmQiOnRydWUsInNldHRpbmdzIjp0cnVlLCJwb3MiOnRydWUsInByb2R1Y3RzIjp0cnVlLCJjdXN0b21lcnMiOnRydWUsInJlcG9ydHNCYXNpYyI6dHJ1ZSwicmVwb3J0c0FkdmFuY2VkIjp0cnVlLCJleHBvcnRzIjp0cnVlLCJ3aGF0c2FwcFJlY2VpcHQiOnRydWV9LCJicmFuZGluZyI6eyJzaG9wTmFtZSI6InRlc3RpZCIsInNob3BOYW1lVXIiOiJ0ZXN0aWQiLCJhZGRyZXNzIjoiIiwicGhvbmUiOiIxMzIxNDU2NDg4IiwiZm9vdGVyRW4iOiJFeGNoYW5nZSB3aXRoaW4gNyBkYXlzIHdpdGggcmVjZWlwdCIsImZvb3RlclVyIjoiNyDYr9mGINqp25Ig2KfZhtiv2LEg2LHYs9uM2K8g2qnbkiDYs9in2KraviDYqtio2K/bjNmE24wg2YXZhdqp2YYg24HbkiIsImN1cnJlbmN5IjoiUnMiLCJ0YXhSYXRlIjowLCJ0YXhOYW1lIjoiVGF4IiwibG9nb1VybCI6IiJ9fSwicyI6Ijg5ODJkODZhY2QyZmUxMjFiOGVmMDU2YjQ4NTQxM2IxNWQxZDMzNzYyYzJjMWRkODYxMTA2MGE4NWM1OGJjOTM4ZTg4MTVkNDU1NTQ0OTAzNDcwOTRjOGRmZWY1ZjRjYjgyOGU4YjU0Nzk4ODI5M2UxNTU4NzY4MWZlODc1NjA1In0=",
+      "updatedAt": 1795732015678
     }
   ]
 }
