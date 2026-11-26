@@ -1,12 +1,12 @@
 {
   "v": 1,
-  "updatedAt": 0,
+  "updatedAt": 1795726428337,
   "shops": [
     {
       "cid": "SHOP01",
       "status": "active",
       "plan": "monthly",
-      "expiry": "2026-12-31",
+      "expiry": "2026-11-28",
       "dsHash": "",
       "fp": "",
       "features": {
@@ -16,24 +16,29 @@
         "products": true,
         "customers": true,
         "reportsBasic": true,
-        "reportsAdvanced": false,
+        "reportsAdvanced": true,
         "exports": true,
-        "whatsappReceipt": false
+        "whatsappReceipt": true
       },
       "branding": {
-        "shopName": "",
-        "shopNameUr": "",
+        "shopName": "TestShop",
+        "shopNameUr": "TestShop",
         "address": "",
-        "phone": "",
-        "footerEn": "",
-        "footerUr": "",
+        "phone": "1321456488",
+        "footerEn": "Exchange within 7 days with receipt",
+        "footerUr": "7 دن کے اندر رسید کے ساتھ تبدیلی ممکن ہے",
         "currency": "Rs",
         "taxRate": 0,
         "taxName": "Tax",
         "logoUrl": ""
       },
+      "admin": {
+        "user": "testid",
+        "salt": "5055132ed51726a4f1c2c97c654e4f52",
+        "hash": "61571314c3e1eb2f908ab154e1e98466e063861d0450edf4d11863c0d7d9ed9f"
+      },
       "code": null,
-      "updatedAt": 0
+      "updatedAt": 1795726428301
     }
   ]
 }
